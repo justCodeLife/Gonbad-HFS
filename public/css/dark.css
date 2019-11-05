@@ -1,0 +1,15 @@
+html,
+body,
+:not([style*="background-color:"]) {
+    background-color: #181A1B !important;
+}
+html,
+body,
+:not([style*="color:"]) {
+    color: ghostwhite !important;
+}
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
